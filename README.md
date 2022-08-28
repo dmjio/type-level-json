@@ -6,6 +6,7 @@ type-level-json
 ## Table of Contents
 - [Example](#example)
 - [Result](#result)
+- [TODO](#todo)
 - [Thoughts](#thoughts)
 - [License](#license)
 
@@ -25,6 +26,13 @@ type-level-json
 		   '[ '("subObj", 'Array '[ 'JString "foo", 'Bool 'True]),
 			  '("key", 'Bool 'False)])]
 ```
+
+### TODO
+
+ - Finish floating point numbers
+ - Thread through `Either`
+ - Augment JSON spec imp. to add types - aka. schema support.
+ - Reification functions for parsing, encoding, schema documentation.
 
 ### Thoughts
 
