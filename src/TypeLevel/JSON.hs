@@ -73,6 +73,9 @@ type family ParseValuesByComma' vals where
        , 'Array (arrayVals ++ '[value])
        )
 
+type family Decode a where
+  Decode x = Snd (ParseValue (Lexer x))
+
 type family ParseValue (tokens :: [Token]) :: ([Token], Value) where
   ParseValue
     (  TChar 'n'
