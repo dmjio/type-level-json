@@ -11,7 +11,7 @@ module TypeLevel.JSON where
 -- Module      :  TypeLevel.JSON
 -- Copyright   :  (C) 2022-2023 David M. Johnson
 -- License     :  BSD3-style (see the file LICENSE)
--- Maintainer  :  djohnson.m@gmail.com
+-- Maintainer  :  code@dmj.io
 -- Stability   :  experimental
 -- Portability :  non-portable
 ----------------------------------------------------------------------------
